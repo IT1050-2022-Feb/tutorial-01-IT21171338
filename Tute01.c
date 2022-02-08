@@ -9,14 +9,14 @@ int main() {
    float avg;
    
    printf("Enter Mark1:");//prompt
-   scanf("%d",&mark1);//
+   scanf("%d",&mark1);//read mark 1
    
-  printf("Enter Mark2:");
-   scanf("%d",&mark2);
+  printf("Enter Mark2:");//prompt
+   scanf("%d",&mark2);//read mark 1
    
-   avg = (mark1+mark2)/2.0;
+   avg = (mark1+mark2)/2.0;//calculate average
    
-   printf("Average = %.2f",avg);
+   printf("Average = %.2f",avg);//display avg
    
   return 0;
 }
