@@ -18,7 +18,7 @@ int main() {
   printf("Enter the number:");
   scanf("%d", &n);
   
-  for(i=1; i<=n ;i++){
+  for(int i=1; i<=n ;i++){
     sum += i;
   }
   
